@@ -1,4 +1,4 @@
-public interface Tipo {
+public interface Estado {
 
     int calcularPrecio(int precioPrenda);
 

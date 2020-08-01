@@ -6,10 +6,11 @@ Los requerimientos son:
 public class Prenda {
     int valorNeto;
     int precioPropio;
+    Estado estado;
     Tipo tipo;
 
     int precio(){
-        return tipo.calcularPrecio(precioPropio);
+        return estado.calcularPrecio(precioPropio);
     }
 
     int ganancia(){
